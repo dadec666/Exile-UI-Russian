@@ -1,5 +1,5 @@
 ## About
-- these are the English language-files that can be used by community members as a template to translate Lailloken UI and/or adapt it to non-English game-clients
+- these are the English language-files that can be used by community members as a template to translate Exile UI and/or adapt it to non-English game-clients
 
 - these community translations / "language packs" will be treated as some form of extension to the main tool and will not be officially implemented
 
@@ -11,7 +11,7 @@
 ## Publication
 - simply create a new repository to host your project
 
-  - you can name it whatever you want, but it's probably best to simply call it `Lailloken-UI-XYZ` (mirroring this repo's name)
+  - you can name it whatever you want, but it's probably best to simply call it `Exile-UI-XYZ` (mirroring this repo's name)
  
 - the tool searches the `data` folder for folders containing language-files, e.g. `data\english`:
 
@@ -19,7 +19,7 @@
  
   - use a top-level `XYZ` folder and store the files in there
  
-- to avoid confusion, please `DO NOT` create a fork of the main Lailloken-UI project
+- to avoid confusion, please `DO NOT` create a fork of the main Exile-UI project
 
   - I don't want to miss core feedback/bug-reports just because users post them on the wrong repo
  
@@ -37,13 +37,13 @@
 
   - do both of those things
 
-- open the `data` folder within your Lailloken UI installation and create a `new folder` with the language-code of your target language
+- open the `data` folder within your Exile UI installation and create a `new folder` with the language-code of your target language
 
 - copy the template `client.txt` file into the folder you have created, then open it and read the instructions
 
   - you can start by adapting the keys tagged with `system_`, `contributor`, and `log_` to your target language first
  
-  - save the file and restart Lailloken UI
+  - save the file and restart Exile UI
 
   - the `general` section of the settings menu should now show that the script has detected your client's language
  
