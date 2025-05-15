@@ -1,0 +1,10 @@
+name: Lint Translations
+on: [pull_request]
+jobs:
+  check-translations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate JSON files
+        run: |
+          find locales -name "*.json" -exec jq empty {} \;
